@@ -12,7 +12,7 @@ do{
 switch(choice){
     case '1':
         let icecream=prompt("Enter ice cream flavor:");
-        let cost=prompt("Enter the cost of ice cream");
+        let cost=Number(prompt("Enter the cost of ice cream"));
         ice.push(icecream);
         price.push(cost);
         break;
@@ -41,7 +41,7 @@ switch(choice){
         }
         break;
     case '3':
-        console.log("TOTAL NO OF ICE CREAM IN INVENTORY:"+ice.length+1);
+        console.log("TOTAL NO OF ICE CREAM IN INVENTORY:"+ice.length);
         break;
     case '4':
         let totalamount=0;
